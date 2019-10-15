@@ -4,3 +4,42 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Convert Oracle Spatial data to ESRI Shapefile
+
+For installation Dom advised looking at:
+  intdev:/net/dnr-atwfs0/vol/vol0/webstore/rhel6tom
+
+That said I like the looks of tomtest:
+
+tomtest:/usr/local/oracle/product/sdo2shp.zip
+  $ unzip sdo2shp.zip 
+  Archive:  sdo2shp.zip
+    creating: SDO2SHP/
+    inflating: SDO2SHP/sdo2shp_client_license.pdf  
+    inflating: SDO2SHP/sdo2shprh4      
+    inflating: SDO2SHP/sdo2shp_1_1_1.exe  
+    inflating: SDO2SHP/sdo2shp         
+    inflating: SDO2SHP/readme.txt      
+   extracting: SDO2SHP/sdo2shp_1_1_1_linux_rhel4.zip  
+     creating: SDO2SHP/new/
+    inflating: SDO2SHP/new/sdo2shp_1_1_1_linux_x86_64_11_2  
+    inflating: SDO2SHP/Sdo2ShapeExec2.java  
+    inflating: SDO2SHP/sdo2shp_1_1_1_linux_x86_64_11_2  
+  $
+
+NOTE: The above sdo2shp.zip is missing:
+      sdo2shp_1_2_2_linux_x86_64_11_2
+
+tomtest:/usr/local/oracle/product/SDO2SHP/
+  NOTE: The sdo2shp symlnk:
+  new
+  readme.txt
+  Sdo2ShapeExec2.java
+  sdo2shp
+  -> /usr/local/oracle/product/SDO2SHP/sdo2shp_1_2_2_linux_x86_64_11_2
+  sdo2shp_1_1_1.exe
+  sdo2shp_1_1_1_linux_rhel4.zip
+  sdo2shp_1_1_1_linux_x86_64_11_2
+  sdo2shp_1_2_2_linux_x86_64_11_2
+  sdo2shp_client_license.pdf
+  sdo2shp_original
+  sdo2shprh4
